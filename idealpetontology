@@ -1,0 +1,816 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:31cc5b27-cc92-4c0c-a79c-9476b61bf338#"
+     xml:base="urn:webprotege:ontology:31cc5b27-cc92-4c0c-a79c-9476b61bf338"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:webprotege="http://webprotege.stanford.edu/">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:31cc5b27-cc92-4c0c-a79c-9476b61bf338"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCXZ8ZuD2ouHuWAttz01nlY -->
+
+    <rdfs:Datatype rdf:about="http://webprotege.stanford.edu/RCXZ8ZuD2ouHuWAttz01nlY">
+        <rdfs:label xml:lang="en">OwnerProfile</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7XnksM9lUufRWqbujrv4Pg -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R7XnksM9lUufRWqbujrv4Pg">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RC2d94ez3a2W1mvok56BTnV"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R7HxSSDWp2sZ2uILFsZWvAM"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">requiresProfile</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R97LbBGPrOZ6OG5imVYGSuY -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R97LbBGPrOZ6OG5imVYGSuY">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R7HxSSDWp2sZ2uILFsZWvAM"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R7HxSSDWp2sZ2uILFsZWvAM"/>
+        <rdfs:label xml:lang="en">hasProfileAspect</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9PfwzFLANzYve5RauqKVOW -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9PfwzFLANzYve5RauqKVOW">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RC2d94ez3a2W1mvok56BTnV"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R9tchdMXKqq7mQutg1WUvJu"/>
+        <rdfs:label xml:lang="en">hasCharacteristic</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RygLxkwuGBsFEhac3q1N8n -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RygLxkwuGBsFEhac3q1N8n">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RC2d94ez3a2W1mvok56BTnV"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R7HxSSDWp2sZ2uILFsZWvAM"/>
+        <rdfs:label xml:lang="en">isCompatibleWith</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R72nPGHZi1fx1f4rkZiyI7d -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R72nPGHZi1fx1f4rkZiyI7d">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RC2d94ez3a2W1mvok56BTnV"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">popularName</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8Frqguovl6G2pg4uLtjDeg -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8Frqguovl6G2pg4uLtjDeg">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RC2d94ez3a2W1mvok56BTnV"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RCXZ8ZuD2ouHuWAttz01nlY"/>
+        <rdfs:label xml:lang="en">isIdealFor</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9KG8R7OWIMcixR5BGi36S9 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9KG8R7OWIMcixR5BGi36S9">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RC2d94ez3a2W1mvok56BTnV"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="en">lifeExpectancyYears</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCV1i8IyqFa4YWSX4VxtLuP -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCV1i8IyqFa4YWSX4VxtLuP">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RC2d94ez3a2W1mvok56BTnV"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label xml:lang="en">isHypoallergenic</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rg2myw232cT8ZDSwdE7GGd -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/Rg2myw232cT8ZDSwdE7GGd">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RC2d94ez3a2W1mvok56BTnV"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label xml:lang="en">monthlyCost</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R73ybK3GgGevsqSOWJy5q7O -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R73ybK3GgGevsqSOWJy5q7O">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7HxSSDWp2sZ2uILFsZWvAM"/>
+        <dc:description xml:lang="en">houses or buildings for sheltering people</dc:description>
+        <rdfs:label xml:lang="en">HousingType</rdfs:label>
+        <rdfs:seeAlso xml:lang="pt">habitação</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7HxSSDWp2sZ2uILFsZWvAM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7HxSSDWp2sZ2uILFsZWvAM">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label xml:lang="en">OwnerProfile</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dono</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tutor</rdfs:seeAlso>
+        <skos:definition xml:lang="en">person in possession of or having control over something</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7aYVGbIauYFZRKLHhIzxm7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7aYVGbIauYFZRKLHhIzxm7">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCaoabgyrLzMwwCKuMlmfC8"/>
+        <rdfs:label xml:lang="en">Dog</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7thCQZTu5OkBgAWGnSt4K0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7thCQZTu5OkBgAWGnSt4K0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC2d94ez3a2W1mvok56BTnV"/>
+        <rdfs:label xml:lang="en">Bird</rdfs:label>
+        <rdfs:seeAlso xml:lang="pt">ave</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="pt">pássaro</rdfs:seeAlso>
+        <skos:definition xml:lang="en">class of vertebrates characterized by wings, a feather-covered body and a beak</skos:definition>
+        <skos:definition xml:lang="pt">subclasse de vertebrados que possuem penas, bico sem dentes e oviparidade de casca rígida</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8qZ1MSz7NMnYKjRehXvOfV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8qZ1MSz7NMnYKjRehXvOfV">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC2d94ez3a2W1mvok56BTnV"/>
+        <rdfs:label xml:lang="en">Fish</rdfs:label>
+        <rdfs:seeAlso xml:lang="pt">peixe</rdfs:seeAlso>
+        <skos:definition xml:lang="pt">tipo de animal aquático vertebrado</skos:definition>
+        <skos:definition xml:lang="en">vertebrate animal that lives in water and (typically) has gills</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9tchdMXKqq7mQutg1WUvJu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9tchdMXKqq7mQutg1WUvJu">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label xml:lang="en">PetCharacteristic</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">trait</rdfs:seeAlso>
+        <skos:definition xml:lang="en">distinguishing feature</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBO7A06ue6G0ufLpXmpsk1H -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBO7A06ue6G0ufLpXmpsk1H">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9tchdMXKqq7mQutg1WUvJu"/>
+        <rdfs:label xml:lang="en">CoatType</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">pelage</rdfs:seeAlso>
+        <skos:definition xml:lang="en">nature and quality of a mammal&apos;s pelage</skos:definition>
+        <skos:definition xml:lang="en">thick growth of hair that covers the skin of many different animals, particularly mammals</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC2d94ez3a2W1mvok56BTnV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC2d94ez3a2W1mvok56BTnV">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label xml:lang="en">Pet</rdfs:label>
+        <rdfs:seeAlso xml:lang="pt">animal de estimação</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">companion animal</rdfs:seeAlso>
+        <skos:definition xml:lang="en">animal kept for companionship and a person&apos;s enjoyment</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC8522SvSWgGOUHBxEypprx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC8522SvSWgGOUHBxEypprx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7HxSSDWp2sZ2uILFsZWvAM"/>
+        <rdfs:label xml:lang="en">ExperienceLevel</rdfs:label>
+        <skos:definition xml:lang="en">knowledge or mastery of an event or subject gained through involvement in or exposure to it</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCHdQWNI2mh2VIadTcGr4s6 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCHdQWNI2mh2VIadTcGr4s6">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9tchdMXKqq7mQutg1WUvJu"/>
+        <rdfs:label xml:lang="en">EnergyLevel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCKLKBTd6pPjVZFKTTDdBQF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCKLKBTd6pPjVZFKTTDdBQF">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7HxSSDWp2sZ2uILFsZWvAM"/>
+        <rdfs:label xml:lang="en">TimeAvailability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCaoabgyrLzMwwCKuMlmfC8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCaoabgyrLzMwwCKuMlmfC8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC2d94ez3a2W1mvok56BTnV"/>
+        <rdfs:label xml:lang="en">Mammal</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">Mammalia</rdfs:seeAlso>
+        <skos:definition xml:lang="en">class of animals, mostly terrestrial tetrapods, some aquatic</skos:definition>
+        <skos:definition xml:lang="pt">classe de animais vertebrados</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCeBXYn3OXCkiRYiDD845a6 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCeBXYn3OXCkiRYiDD845a6">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RWnPFQ3mPQaW3UKdGkDN6P"/>
+        <rdfs:label xml:lang="en">Snake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCmQzImp6SUzeX5ilF2Vsil -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCmQzImp6SUzeX5ilF2Vsil">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9tchdMXKqq7mQutg1WUvJu"/>
+        <dc:description xml:lang="pt">ato ou decisão de manter algo</dc:description>
+        <rdfs:label xml:lang="en">MaintenanceLevel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCvN5DmKy4KGijqflfIFECF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCvN5DmKy4KGijqflfIFECF">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9tchdMXKqq7mQutg1WUvJu"/>
+        <rdfs:label xml:lang="en">Sociability</rdfs:label>
+        <skos:definition xml:lang="en">ability of an individual or group of individuals to adapt to social situations and to work together with other individuals or groups</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDGyOT2iUWOAm5ZDUzVhOrC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDGyOT2iUWOAm5ZDUzVhOrC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7HxSSDWp2sZ2uILFsZWvAM"/>
+        <dc:description xml:lang="en">group of people affiliated by consanguinity, law, affinity, or co-residence</dc:description>
+        <dc:description xml:lang="pt">grupo de pessoas ligadas por consaguinidade, afinidade ou co-residência</dc:description>
+        <rdfs:label xml:lang="en">FamilyComposition</rdfs:label>
+        <rdfs:seeAlso xml:lang="pt">família</rdfs:seeAlso>
+        <skos:definition xml:lang="en">size and composition of a human family</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RWnPFQ3mPQaW3UKdGkDN6P -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RWnPFQ3mPQaW3UKdGkDN6P">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC2d94ez3a2W1mvok56BTnV"/>
+        <rdfs:label xml:lang="en">Reptile</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">Reptilia</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="pt">réptil</rdfs:seeAlso>
+        <skos:definition xml:lang="en">class of vertebrate animals (Vertebrata)</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RZHZID1zaIXDcCPkWJ1siL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RZHZID1zaIXDcCPkWJ1siL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCaoabgyrLzMwwCKuMlmfC8"/>
+        <rdfs:label xml:lang="en">Cat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RmAgb7InWQwcTV3XT0etQe -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RmAgb7InWQwcTV3XT0etQe">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RWnPFQ3mPQaW3UKdGkDN6P"/>
+        <rdfs:label xml:lang="en">Lizard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label xml:lang="en">pet_domain</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R5UnLGelgWKynysFsl5RMx -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R5UnLGelgWKynysFsl5RMx">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7HxSSDWp2sZ2uILFsZWvAM"/>
+        <webprotege:R97LbBGPrOZ6OG5imVYGSuY rdf:resource="http://webprotege.stanford.edu/R9BRma82NoFRgetCWUivtTB"/>
+        <webprotege:R97LbBGPrOZ6OG5imVYGSuY rdf:resource="http://webprotege.stanford.edu/R9Oas7yfYcAyjvwydMi7DK1"/>
+        <webprotege:R97LbBGPrOZ6OG5imVYGSuY rdf:resource="http://webprotege.stanford.edu/RBxF4guJh0IXyh0nYmmQMnN"/>
+        <webprotege:R97LbBGPrOZ6OG5imVYGSuY rdf:resource="http://webprotege.stanford.edu/RC95aLm8pD0adKBzMlgprQ0"/>
+        <rdfs:label xml:lang="en">PotentialOwner_2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7RAUvAohEuSUxmBVUfrwiB -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7RAUvAohEuSUxmBVUfrwiB">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBO7A06ue6G0ufLpXmpsk1H"/>
+        <rdfs:label xml:lang="en">Feathers</rdfs:label>
+        <rdfs:seeAlso xml:lang="pt">pena</rdfs:seeAlso>
+        <skos:definition xml:lang="en">body-covering structure of some dinosaurs including birds</skos:definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7iLBvCJ0RKHNFwCQyDRKAa -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7iLBvCJ0RKHNFwCQyDRKAa">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7aYVGbIauYFZRKLHhIzxm7"/>
+        <webprotege:R7XnksM9lUufRWqbujrv4Pg rdf:resource="http://webprotege.stanford.edu/RC1PfKv22n1or9WAYvFJMFd"/>
+        <webprotege:R9PfwzFLANzYve5RauqKVOW rdf:resource="http://webprotege.stanford.edu/R8d5pIDC5MT62OfsAhM24IR"/>
+        <webprotege:R9PfwzFLANzYve5RauqKVOW rdf:resource="http://webprotege.stanford.edu/R9j5Qyd8WTKgbEM3yRQrNzh"/>
+        <webprotege:R9PfwzFLANzYve5RauqKVOW rdf:resource="http://webprotege.stanford.edu/RCP90CqByjacRpMaUMSke9O"/>
+        <webprotege:R9PfwzFLANzYve5RauqKVOW rdf:resource="http://webprotege.stanford.edu/RRGeme3tn89fg4t2bL6et3"/>
+        <webprotege:RygLxkwuGBsFEhac3q1N8n rdf:resource="http://webprotege.stanford.edu/RBtbcbwhUQ4bHVtj8P8KJDv"/>
+        <webprotege:RygLxkwuGBsFEhac3q1N8n rdf:resource="http://webprotege.stanford.edu/RC7Q4zLt9AxcCVwHzGfp6m2"/>
+        <webprotege:R72nPGHZi1fx1f4rkZiyI7d rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Golden Retriever&quot;</webprotege:R72nPGHZi1fx1f4rkZiyI7d>
+        <webprotege:R9KG8R7OWIMcixR5BGi36S9 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10 - 12 years</webprotege:R9KG8R7OWIMcixR5BGi36S9>
+        <webprotege:RCV1i8IyqFa4YWSX4VxtLuP rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</webprotege:RCV1i8IyqFa4YWSX4VxtLuP>
+        <webprotege:Rg2myw232cT8ZDSwdE7GGd rdf:datatype="http://www.w3.org/2001/XMLSchema#string">450 - 500 R$</webprotege:Rg2myw232cT8ZDSwdE7GGd>
+        <dc:description xml:lang="en">British breed of dog</dc:description>
+        <dc:description xml:lang="en">Golden Retriever</dc:description>
+        <dc:description xml:lang="en">dog type</dc:description>
+        <rdfs:label xml:lang="en">Golden_Retriever</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7zTgw8tlzjrZNEuDgN5QWy -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7zTgw8tlzjrZNEuDgN5QWy">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCeBXYn3OXCkiRYiDD845a6"/>
+        <webprotege:R9PfwzFLANzYve5RauqKVOW rdf:resource="http://webprotege.stanford.edu/RBwlWRKxxyeKHNoMkEJa0Cv"/>
+        <webprotege:R9PfwzFLANzYve5RauqKVOW rdf:resource="http://webprotege.stanford.edu/RQOHpbZ99kdCAp7HOPaHrW"/>
+        <webprotege:R9PfwzFLANzYve5RauqKVOW rdf:resource="http://webprotege.stanford.edu/RtfoRdTuTMR6WB5jJu1bS0"/>
+        <webprotege:RygLxkwuGBsFEhac3q1N8n rdf:resource="http://webprotege.stanford.edu/R9Oas7yfYcAyjvwydMi7DK1"/>
+        <webprotege:RygLxkwuGBsFEhac3q1N8n rdf:resource="http://webprotege.stanford.edu/RC7Q4zLt9AxcCVwHzGfp6m2"/>
+        <webprotege:R72nPGHZi1fx1f4rkZiyI7d rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Common Boa</webprotege:R72nPGHZi1fx1f4rkZiyI7d>
+        <webprotege:R72nPGHZi1fx1f4rkZiyI7d rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jiboia</webprotege:R72nPGHZi1fx1f4rkZiyI7d>
+        <webprotege:R9KG8R7OWIMcixR5BGi36S9 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20 - 30 years</webprotege:R9KG8R7OWIMcixR5BGi36S9>
+        <webprotege:RCV1i8IyqFa4YWSX4VxtLuP rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:RCV1i8IyqFa4YWSX4VxtLuP>
+        <webprotege:Rg2myw232cT8ZDSwdE7GGd rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100 - 150 R$</webprotege:Rg2myw232cT8ZDSwdE7GGd>
+        <dc:description xml:lang="pt">Jiboia-constritora</dc:description>
+        <dc:description xml:lang="en">species of reptile</dc:description>
+        <rdfs:label xml:lang="en">Boa_Constrictor</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R86hcXD6FF0smKtFoYlPJON -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R86hcXD6FF0smKtFoYlPJON">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RZHZID1zaIXDcCPkWJ1siL"/>
+        <webprotege:R9PfwzFLANzYve5RauqKVOW rdf:resource="http://webprotege.stanford.edu/RBwlWRKxxyeKHNoMkEJa0Cv"/>
+        <webprotege:R9PfwzFLANzYve5RauqKVOW rdf:resource="http://webprotege.stanford.edu/RDfDwAo7jwqUGTKvtGwrRgW"/>
+        <webprotege:RygLxkwuGBsFEhac3q1N8n rdf:resource="http://webprotege.stanford.edu/R9BRma82NoFRgetCWUivtTB"/>
+        <webprotege:RygLxkwuGBsFEhac3q1N8n rdf:resource="http://webprotege.stanford.edu/R9Oas7yfYcAyjvwydMi7DK1"/>
+        <webprotege:RygLxkwuGBsFEhac3q1N8n rdf:resource="http://webprotege.stanford.edu/RBtbcbwhUQ4bHVtj8P8KJDv"/>
+        <webprotege:RygLxkwuGBsFEhac3q1N8n rdf:resource="http://webprotege.stanford.edu/RBxF4guJh0IXyh0nYmmQMnN"/>
+        <webprotege:RygLxkwuGBsFEhac3q1N8n rdf:resource="http://webprotege.stanford.edu/RC95aLm8pD0adKBzMlgprQ0"/>
+        <webprotege:RygLxkwuGBsFEhac3q1N8n rdf:resource="http://webprotege.stanford.edu/RDo2dpWW4lfnGDKpJr1AEug"/>
+        <webprotege:R72nPGHZi1fx1f4rkZiyI7d rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Siamese Cat&quot;</webprotege:R72nPGHZi1fx1f4rkZiyI7d>
+        <webprotege:R9KG8R7OWIMcixR5BGi36S9 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</webprotege:R9KG8R7OWIMcixR5BGi36S9>
+        <webprotege:RCV1i8IyqFa4YWSX4VxtLuP rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</webprotege:RCV1i8IyqFa4YWSX4VxtLuP>
+        <webprotege:Rg2myw232cT8ZDSwdE7GGd rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">150.0</webprotege:Rg2myw232cT8ZDSwdE7GGd>
+        <dc:description xml:lang="pt">Gato siamês</dc:description>
+        <dc:description xml:lang="en">breed of Oriental cat originated in Thailand</dc:description>
+        <dc:description xml:lang="pt">raça de gato doméstico</dc:description>
+        <rdfs:comment xml:lang="en">breed of cat</rdfs:comment>
+        <rdfs:label xml:lang="en">Siamese_Cat</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8d5pIDC5MT62OfsAhM24IR -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8d5pIDC5MT62OfsAhM24IR">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCmQzImp6SUzeX5ilF2Vsil"/>
+        <rdfs:label xml:lang="en">HighMaintenance</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8nwyBLkdLy5rWeVESoceVi -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8nwyBLkdLy5rWeVESoceVi">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7aYVGbIauYFZRKLHhIzxm7"/>
+        <webprotege:R9PfwzFLANzYve5RauqKVOW rdf:resource="http://webprotege.stanford.edu/R8d5pIDC5MT62OfsAhM24IR"/>
+        <webprotege:R9PfwzFLANzYve5RauqKVOW rdf:resource="http://webprotege.stanford.edu/RRGeme3tn89fg4t2bL6et3"/>
+        <webprotege:R9PfwzFLANzYve5RauqKVOW rdf:resource="http://webprotege.stanford.edu/RtfoRdTuTMR6WB5jJu1bS0"/>
+        <webprotege:RygLxkwuGBsFEhac3q1N8n rdf:resource="http://webprotege.stanford.edu/R9Oas7yfYcAyjvwydMi7DK1"/>
+        <webprotege:RygLxkwuGBsFEhac3q1N8n rdf:resource="http://webprotege.stanford.edu/RBxF4guJh0IXyh0nYmmQMnN"/>
+        <webprotege:RygLxkwuGBsFEhac3q1N8n rdf:resource="http://webprotege.stanford.edu/RC95aLm8pD0adKBzMlgprQ0"/>
+        <webprotege:RygLxkwuGBsFEhac3q1N8n rdf:resource="http://webprotege.stanford.edu/RDo2dpWW4lfnGDKpJr1AEug"/>
+        <webprotege:R72nPGHZi1fx1f4rkZiyI7d rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Shih Tzu&quot;</webprotege:R72nPGHZi1fx1f4rkZiyI7d>
+        <webprotege:R9KG8R7OWIMcixR5BGi36S9 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14 years</webprotege:R9KG8R7OWIMcixR5BGi36S9>
+        <webprotege:RCV1i8IyqFa4YWSX4VxtLuP rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</webprotege:RCV1i8IyqFa4YWSX4VxtLuP>
+        <webprotege:Rg2myw232cT8ZDSwdE7GGd rdf:datatype="http://www.w3.org/2001/XMLSchema#string">250 - 400 R$</webprotege:Rg2myw232cT8ZDSwdE7GGd>
+        <dc:description xml:lang="pt">Raça de cachorro originária do Tibete</dc:description>
+        <dc:description xml:lang="en">dog breed</dc:description>
+        <rdfs:label xml:lang="en">Shih_Tzu</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R96kp555M1pZr1thhwGSWpe -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R96kp555M1pZr1thhwGSWpe">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBO7A06ue6G0ufLpXmpsk1H"/>
+        <rdfs:label xml:lang="en">NoFurOrHair</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9BRma82NoFRgetCWUivtTB -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9BRma82NoFRgetCWUivtTB">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCKLKBTd6pPjVZFKTTDdBQF"/>
+        <rdfs:label xml:lang="en">LowTimeAvailability</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9Oas7yfYcAyjvwydMi7DK1 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9Oas7yfYcAyjvwydMi7DK1">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R73ybK3GgGevsqSOWJy5q7O"/>
+        <rdfs:label xml:lang="en">SmallApartment</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9j5Qyd8WTKgbEM3yRQrNzh -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9j5Qyd8WTKgbEM3yRQrNzh">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCvN5DmKy4KGijqflfIFECF"/>
+        <rdfs:label xml:lang="en">GoodWithChildren</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB9JiWbj7BcnXilcTTrw2Yp -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RB9JiWbj7BcnXilcTTrw2Yp">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7HxSSDWp2sZ2uILFsZWvAM"/>
+        <webprotege:R97LbBGPrOZ6OG5imVYGSuY rdf:resource="http://webprotege.stanford.edu/RBtbcbwhUQ4bHVtj8P8KJDv"/>
+        <webprotege:R97LbBGPrOZ6OG5imVYGSuY rdf:resource="http://webprotege.stanford.edu/RC1PfKv22n1or9WAYvFJMFd"/>
+        <webprotege:R97LbBGPrOZ6OG5imVYGSuY rdf:resource="http://webprotege.stanford.edu/RC7Q4zLt9AxcCVwHzGfp6m2"/>
+        <webprotege:R97LbBGPrOZ6OG5imVYGSuY rdf:resource="http://webprotege.stanford.edu/RDo2dpWW4lfnGDKpJr1AEug"/>
+        <rdfs:label xml:lang="en">PotentialOwner_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBfmwXIfXPV7a7EEWklhKm7 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBfmwXIfXPV7a7EEWklhKm7">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCvN5DmKy4KGijqflfIFECF"/>
+        <rdfs:label xml:lang="en">PrefersToBeSinglePet</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBtbcbwhUQ4bHVtj8P8KJDv -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBtbcbwhUQ4bHVtj8P8KJDv">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDGyOT2iUWOAm5ZDUzVhOrC"/>
+        <rdfs:label xml:lang="en">FamilyWithChildren</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBwlWRKxxyeKHNoMkEJa0Cv -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBwlWRKxxyeKHNoMkEJa0Cv">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCmQzImp6SUzeX5ilF2Vsil"/>
+        <rdfs:label xml:lang="en">LowMaintenance</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBxF4guJh0IXyh0nYmmQMnN -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBxF4guJh0IXyh0nYmmQMnN">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RC8522SvSWgGOUHBxEypprx"/>
+        <rdfs:label xml:lang="en">BeginnerOwner</rdfs:label>
+        <skos:definition xml:lang="en">someone who is just starting at something, or has only recently started.</skos:definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC1PfKv22n1or9WAYvFJMFd -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC1PfKv22n1or9WAYvFJMFd">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R73ybK3GgGevsqSOWJy5q7O"/>
+        <rdfs:label xml:lang="en">HouseWithYard</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC7Q4zLt9AxcCVwHzGfp6m2 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC7Q4zLt9AxcCVwHzGfp6m2">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RC8522SvSWgGOUHBxEypprx"/>
+        <rdfs:label xml:lang="en">ExperiencedOwner</rdfs:label>
+        <skos:definition xml:lang="en">knowledge or mastery of an event or subject gained through involvement in or exposure to it</skos:definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC95aLm8pD0adKBzMlgprQ0 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC95aLm8pD0adKBzMlgprQ0">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDGyOT2iUWOAm5ZDUzVhOrC"/>
+        <rdfs:label xml:lang="en">LivesAlone</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCP90CqByjacRpMaUMSke9O -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCP90CqByjacRpMaUMSke9O">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCHdQWNI2mh2VIadTcGr4s6"/>
+        <rdfs:label xml:lang="en">HighEnergy</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCriFWqlqrsXD93kp6lMj4r -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCriFWqlqrsXD93kp6lMj4r">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RmAgb7InWQwcTV3XT0etQe"/>
+        <webprotege:R9PfwzFLANzYve5RauqKVOW rdf:resource="http://webprotege.stanford.edu/RBwlWRKxxyeKHNoMkEJa0Cv"/>
+        <webprotege:R9PfwzFLANzYve5RauqKVOW rdf:resource="http://webprotege.stanford.edu/RQOHpbZ99kdCAp7HOPaHrW"/>
+        <webprotege:R9PfwzFLANzYve5RauqKVOW rdf:resource="http://webprotege.stanford.edu/RtfoRdTuTMR6WB5jJu1bS0"/>
+        <webprotege:RygLxkwuGBsFEhac3q1N8n rdf:resource="http://webprotege.stanford.edu/R9Oas7yfYcAyjvwydMi7DK1"/>
+        <webprotege:RygLxkwuGBsFEhac3q1N8n rdf:resource="http://webprotege.stanford.edu/RBxF4guJh0IXyh0nYmmQMnN"/>
+        <webprotege:R72nPGHZi1fx1f4rkZiyI7d rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Leopard Gecko&quot;</webprotege:R72nPGHZi1fx1f4rkZiyI7d>
+        <webprotege:R9KG8R7OWIMcixR5BGi36S9 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</webprotege:R9KG8R7OWIMcixR5BGi36S9>
+        <webprotege:RCV1i8IyqFa4YWSX4VxtLuP rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:RCV1i8IyqFa4YWSX4VxtLuP>
+        <webprotege:Rg2myw232cT8ZDSwdE7GGd rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80.0</webprotege:Rg2myw232cT8ZDSwdE7GGd>
+        <dc:description xml:lang="pt">geco-leopardo</dc:description>
+        <dc:description xml:lang="en">species of reptile</dc:description>
+        <rdfs:label xml:lang="en">Leopard_Gecko</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDRQfT6MPWKnqKE48YHqyPx -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDRQfT6MPWKnqKE48YHqyPx">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7aYVGbIauYFZRKLHhIzxm7"/>
+        <webprotege:R7XnksM9lUufRWqbujrv4Pg rdf:resource="http://webprotege.stanford.edu/RC1PfKv22n1or9WAYvFJMFd"/>
+        <webprotege:R9PfwzFLANzYve5RauqKVOW rdf:resource="http://webprotege.stanford.edu/R8d5pIDC5MT62OfsAhM24IR"/>
+        <webprotege:R9PfwzFLANzYve5RauqKVOW rdf:resource="http://webprotege.stanford.edu/R9j5Qyd8WTKgbEM3yRQrNzh"/>
+        <webprotege:R9PfwzFLANzYve5RauqKVOW rdf:resource="http://webprotege.stanford.edu/RCP90CqByjacRpMaUMSke9O"/>
+        <webprotege:R9PfwzFLANzYve5RauqKVOW rdf:resource="http://webprotege.stanford.edu/RRGeme3tn89fg4t2bL6et3"/>
+        <webprotege:RygLxkwuGBsFEhac3q1N8n rdf:resource="http://webprotege.stanford.edu/RBtbcbwhUQ4bHVtj8P8KJDv"/>
+        <webprotege:RygLxkwuGBsFEhac3q1N8n rdf:resource="http://webprotege.stanford.edu/RC7Q4zLt9AxcCVwHzGfp6m2"/>
+        <webprotege:R72nPGHZi1fx1f4rkZiyI7d rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Labradoodle</webprotege:R72nPGHZi1fx1f4rkZiyI7d>
+        <webprotege:R9KG8R7OWIMcixR5BGi36S9 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13 - 15 years</webprotege:R9KG8R7OWIMcixR5BGi36S9>
+        <webprotege:RCV1i8IyqFa4YWSX4VxtLuP rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:RCV1i8IyqFa4YWSX4VxtLuP>
+        <webprotege:Rg2myw232cT8ZDSwdE7GGd rdf:datatype="http://www.w3.org/2001/XMLSchema#string">450 - 500 R$</webprotege:Rg2myw232cT8ZDSwdE7GGd>
+        <dc:description xml:lang="en">dog crossbreed</dc:description>
+        <rdfs:comment xml:lang="en">Labrador poodle
+Doodle</rdfs:comment>
+        <rdfs:label xml:lang="en">Labradoodle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDfDwAo7jwqUGTKvtGwrRgW -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDfDwAo7jwqUGTKvtGwrRgW">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBO7A06ue6G0ufLpXmpsk1H"/>
+        <rdfs:label xml:lang="en">ShortCoat</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDo2dpWW4lfnGDKpJr1AEug -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDo2dpWW4lfnGDKpJr1AEug">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCKLKBTd6pPjVZFKTTDdBQF"/>
+        <rdfs:label xml:lang="en">HighTimeAvailability</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDoJBDQJyoepr3MslNLuEO3 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDoJBDQJyoepr3MslNLuEO3">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7aYVGbIauYFZRKLHhIzxm7"/>
+        <webprotege:R7XnksM9lUufRWqbujrv4Pg rdf:resource="http://webprotege.stanford.edu/RC1PfKv22n1or9WAYvFJMFd"/>
+        <webprotege:R9PfwzFLANzYve5RauqKVOW rdf:resource="http://webprotege.stanford.edu/RCP90CqByjacRpMaUMSke9O"/>
+        <webprotege:RygLxkwuGBsFEhac3q1N8n rdf:resource="http://webprotege.stanford.edu/RBtbcbwhUQ4bHVtj8P8KJDv"/>
+        <webprotege:RygLxkwuGBsFEhac3q1N8n rdf:resource="http://webprotege.stanford.edu/RBxF4guJh0IXyh0nYmmQMnN"/>
+        <webprotege:RygLxkwuGBsFEhac3q1N8n rdf:resource="http://webprotege.stanford.edu/RC95aLm8pD0adKBzMlgprQ0"/>
+        <webprotege:R72nPGHZi1fx1f4rkZiyI7d rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SRD</webprotege:R72nPGHZi1fx1f4rkZiyI7d>
+        <webprotege:R72nPGHZi1fx1f4rkZiyI7d rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mixed-breed dog</webprotege:R72nPGHZi1fx1f4rkZiyI7d>
+        <webprotege:R72nPGHZi1fx1f4rkZiyI7d rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vira-lata</webprotege:R72nPGHZi1fx1f4rkZiyI7d>
+        <webprotege:R9KG8R7OWIMcixR5BGi36S9 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12 - 16 years</webprotege:R9KG8R7OWIMcixR5BGi36S9>
+        <webprotege:RCV1i8IyqFa4YWSX4VxtLuP rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</webprotege:RCV1i8IyqFa4YWSX4VxtLuP>
+        <webprotege:Rg2myw232cT8ZDSwdE7GGd rdf:datatype="http://www.w3.org/2001/XMLSchema#string">300 - 450 R$</webprotege:Rg2myw232cT8ZDSwdE7GGd>
+        <dc:description xml:lang="pt">SRD</dc:description>
+        <dc:description xml:lang="pt">designação popularmente dada a cães e gatos mestiços ou sem raça claramente definida</dc:description>
+        <dc:description xml:lang="en">dog with mixed breeds</dc:description>
+        <dc:description xml:lang="pt">vira-lata</dc:description>
+        <rdfs:label xml:lang="en">Mongrel</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RQOHpbZ99kdCAp7HOPaHrW -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RQOHpbZ99kdCAp7HOPaHrW">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBO7A06ue6G0ufLpXmpsk1H"/>
+        <rdfs:label xml:lang="en">Scales</rdfs:label>
+        <skos:definition xml:lang="en">small rigid plate that grows out of an animal&apos;s skin</skos:definition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RRGeme3tn89fg4t2bL6et3 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RRGeme3tn89fg4t2bL6et3">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBO7A06ue6G0ufLpXmpsk1H"/>
+        <rdfs:label xml:lang="en">LongCoat</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RV6XJdsY9Jy1YZANHOYxE0 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RV6XJdsY9Jy1YZANHOYxE0">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8qZ1MSz7NMnYKjRehXvOfV"/>
+        <webprotege:R9PfwzFLANzYve5RauqKVOW rdf:resource="http://webprotege.stanford.edu/RBfmwXIfXPV7a7EEWklhKm7"/>
+        <webprotege:R9PfwzFLANzYve5RauqKVOW rdf:resource="http://webprotege.stanford.edu/RBwlWRKxxyeKHNoMkEJa0Cv"/>
+        <webprotege:RygLxkwuGBsFEhac3q1N8n rdf:resource="http://webprotege.stanford.edu/R9BRma82NoFRgetCWUivtTB"/>
+        <webprotege:RygLxkwuGBsFEhac3q1N8n rdf:resource="http://webprotege.stanford.edu/R9Oas7yfYcAyjvwydMi7DK1"/>
+        <webprotege:RygLxkwuGBsFEhac3q1N8n rdf:resource="http://webprotege.stanford.edu/RBxF4guJh0IXyh0nYmmQMnN"/>
+        <webprotege:R72nPGHZi1fx1f4rkZiyI7d rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Beta Fish&quot;</webprotege:R72nPGHZi1fx1f4rkZiyI7d>
+        <webprotege:R9KG8R7OWIMcixR5BGi36S9 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-5 years</webprotege:R9KG8R7OWIMcixR5BGi36S9>
+        <webprotege:RCV1i8IyqFa4YWSX4VxtLuP rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:RCV1i8IyqFa4YWSX4VxtLuP>
+        <webprotege:Rg2myw232cT8ZDSwdE7GGd rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10 - 20 R$</webprotege:Rg2myw232cT8ZDSwdE7GGd>
+        <dc:description xml:lang="en">genus of fishes within the family Osphronemidae</dc:description>
+        <rdfs:label xml:lang="en">Betta</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RdONU92F0n6b02WJ5fXEAB -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RdONU92F0n6b02WJ5fXEAB">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7thCQZTu5OkBgAWGnSt4K0"/>
+        <webprotege:R9PfwzFLANzYve5RauqKVOW rdf:resource="http://webprotege.stanford.edu/R7RAUvAohEuSUxmBVUfrwiB"/>
+        <webprotege:R9PfwzFLANzYve5RauqKVOW rdf:resource="http://webprotege.stanford.edu/RBwlWRKxxyeKHNoMkEJa0Cv"/>
+        <webprotege:RygLxkwuGBsFEhac3q1N8n rdf:resource="http://webprotege.stanford.edu/R9Oas7yfYcAyjvwydMi7DK1"/>
+        <webprotege:RygLxkwuGBsFEhac3q1N8n rdf:resource="http://webprotege.stanford.edu/RBtbcbwhUQ4bHVtj8P8KJDv"/>
+        <webprotege:RygLxkwuGBsFEhac3q1N8n rdf:resource="http://webprotege.stanford.edu/RBxF4guJh0IXyh0nYmmQMnN"/>
+        <webprotege:RygLxkwuGBsFEhac3q1N8n rdf:resource="http://webprotege.stanford.edu/RC95aLm8pD0adKBzMlgprQ0"/>
+        <webprotege:R72nPGHZi1fx1f4rkZiyI7d rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Cockatiel&quot;</webprotege:R72nPGHZi1fx1f4rkZiyI7d>
+        <webprotege:R72nPGHZi1fx1f4rkZiyI7d rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calopsita</webprotege:R72nPGHZi1fx1f4rkZiyI7d>
+        <webprotege:R9KG8R7OWIMcixR5BGi36S9 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15 years</webprotege:R9KG8R7OWIMcixR5BGi36S9>
+        <webprotege:RCV1i8IyqFa4YWSX4VxtLuP rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</webprotege:RCV1i8IyqFa4YWSX4VxtLuP>
+        <webprotege:Rg2myw232cT8ZDSwdE7GGd rdf:datatype="http://www.w3.org/2001/XMLSchema#string">70 - 80 R$</webprotege:Rg2myw232cT8ZDSwdE7GGd>
+        <dc:description xml:lang="pt">espécie de pássaro</dc:description>
+        <dc:description xml:lang="en">species of Australian cockatoo</dc:description>
+        <rdfs:label xml:lang="en">Cockatiel</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RtfoRdTuTMR6WB5jJu1bS0 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RtfoRdTuTMR6WB5jJu1bS0">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCHdQWNI2mh2VIadTcGr4s6"/>
+        <rdfs:label xml:lang="en">LowEnergy</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
